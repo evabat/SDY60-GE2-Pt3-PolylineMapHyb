@@ -1,0 +1,42 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Polyline Map
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-item>
+        <ion-label>Επιλογή διαδρομής</ion-label>
+        <ion-select [(ngModel)]="selectedPath" (ionChange)="changeSelectedPath(selectedPath)">
+            <ion-option [selected]=true value="000">Χωρίς επιλογή</ion-option>
+            <ion-option *ngFor="let path of pathsArr" [value]="path.key">{{path.address}}</ion-option>
+        </ion-select>
+    </ion-item>
+    <div data-tap-disabled="true">
+        <div id="map_canvas">
+            <span class="smallPanel">
+                <button id="myLocbtn"></button>
+                </span>
+        </div>
+    </div>
+
+    <div class="btns-group">
+
+        <button id="delete-btn" ion-button color="danger" (click)="deletePath()" [attr.disabled]="deleteDisabled ? '' : null">
+            <i class="icon ion-android-delete"></i>
+            </button>
+
+        <button id="save-btn" ion-button color="secondary" (click)="savePath()" [attr.disabled]="saveDisabled ? '' : null">
+            <span class=" btn-lbl ">ΑΠΟΘΗΚΕΥΣΗ</span>  
+            <i class="icon ion-android-checkbox-outline "></i>
+        </button>
+
+        <button id="erase-btn" ion-button (click)="erasePath()" [attr.disabled]="eraseDisabled ? '' : null">
+            <i class="icon ion-close-circled"></i>
+        </button>
+    </div>
+
+
+</ion-content>

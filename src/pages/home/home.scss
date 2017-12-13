@@ -1,0 +1,51 @@
+@mixin btn-img($width, $height, $color, $pos-left, $pos-top) {
+    background-image: url('../../assets/imgs/btns-sprite.png');
+    width: $width;
+    height: $height;
+    background-color: $color;
+    background-position: $pos-left $pos-top;
+}
+
+page-home {
+    .toolbar-background {
+        background-color: #31b0d5;
+    }
+    .toolbar-title {
+        color: #fff;
+    }
+    #map_canvas {
+        height: 70vh;
+        width: 100%;
+    }
+    .btns-group {
+        margin-top: 1.2rem;
+        display: flex;
+        width: 100%;
+        position: relative;
+        justify-content: space-between;
+        #delete-btn {
+            width: 6rem;
+            border-radius: 16px;
+            i {
+                font-size: 22px;
+            }
+        }
+        #save-btn {
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+            border-radius: 16px;
+            i {
+                font-size: 22px;
+                margin-left: 10px;
+            }
+        }
+        #erase-btn {
+            width: 6rem;
+            background-color: #f0ad4e;
+            border-radius: 16px;
+            i {
+                font-size: 22px;
+            }
+        }
+    }
+}

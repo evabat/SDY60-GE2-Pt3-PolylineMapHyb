@@ -1,0 +1,4 @@
+#Wed Dec 13 01:05:19 EET 2017
+base.0=C\:\\projects\\PolylineMapHyb\\platforms\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\projects\\PolylineMapHyb\\platforms\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
