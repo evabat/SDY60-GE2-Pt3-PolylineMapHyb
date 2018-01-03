@@ -15,12 +15,12 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 // AngularFire2 Settings
 export const firebaseConfig = {
-  apiKey: "AIzaSyD_K1uk9h_tEXg9s2U3R96l9gJ8j2eb5fw",
-  authDomain: "polylinemaphyb-1512604430698.firebaseapp.com",
-  databaseURL: "https://polylinemaphyb-1512604430698.firebaseio.com",
-  projectId: "polylinemaphyb-1512604430698",
-  storageBucket: "polylinemaphyb-1512604430698.appspot.com",
-  messagingSenderId: "453969756088"
+  apiKey: "<YOUR_API_KEY>",
+  authDomain: "<YOUR_AUTH_DOMAIN>",
+  databaseURL: "<YOUR_DATABASE_URL>",
+  projectId: "<YOUR_PROJECT_ID>",
+  storageBucket: "YOUR_STORAGE_BUCKET>",
+  messagingSenderId: "<YOUR_MESSAGING_SENDER_ID>"
 };
 
 @NgModule({
