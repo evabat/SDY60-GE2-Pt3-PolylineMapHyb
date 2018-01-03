@@ -26,7 +26,7 @@
       "PACKAGE_NAME": "io.ionic.starter"
     },
     "cordova-plugin-googlemaps": {
-      "API_KEY_FOR_ANDROID": "AIzaSyApQMKI8dLrjCdgGH-ikDK9vL-QPBAj1dQ",
+      "API_KEY_FOR_ANDROID": "<YOUR_ANDROID_API_KEY_FOR_GOOGLEMAPS>",
       "PACKAGE_NAME": "io.ionic.starter"
     },
     "cordova-plugin-nativegeocoder": {
