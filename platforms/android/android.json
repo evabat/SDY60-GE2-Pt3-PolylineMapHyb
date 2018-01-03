@@ -105,7 +105,7 @@
           ],
           "/manifest/application": [
             {
-              "xml": "<meta-data android:name=\"com.google.android.geo.API_KEY\" android:value=\"AIzaSyApQMKI8dLrjCdgGH-ikDK9vL-QPBAj1dQ\" />",
+              "xml": "<meta-data android:name=\"com.google.android.geo.API_KEY\" android:value=\<YOUR_ANDROID_API_KEY_FOR_GOOGLEMAPS>\" />",
               "count": 1
             },
             {
