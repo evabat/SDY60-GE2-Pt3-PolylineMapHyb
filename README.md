@@ -126,7 +126,7 @@
 
 Έπειτα, αφού ανοίξουμε το directory του project σε command prompt (εφόσον είναι διαθέσιμο το node.js) πληκτρολογούμε:
 
-"npm install" για να εγκατασταθούν τα dependencies. Έπειτα (αν επιθυμούμε να το τρέξουμε τοπικά σε συσκευή) συνδέουμε μια android συσκευή που έχει enabled το USB debugging mode και τρέχουμε τα προαναφερόμενα build και run commands. Επιπλέον είναι διαθέσιμα και τα εκτελέσιμα αρχεία apk στον αντίστοιχο φάκελο στο εξής path: platforms/android/build/outputs/apk
+`npm install` για να εγκατασταθούν τα dependencies. Έπειτα (αν επιθυμούμε να το τρέξουμε τοπικά σε συσκευή) συνδέουμε μια android συσκευή που έχει enabled το USB debugging mode και τρέχουμε τα προαναφερόμενα build και run commands. Επιπλέον είναι διαθέσιμα και τα εκτελέσιμα αρχεία apk στον αντίστοιχο φάκελο στο εξής path: platforms/android/build/outputs/apk
 
   [Ionic framework]: https://ionicframework.com/
   [Apache Cordova]: https://cordova.apache.org/
